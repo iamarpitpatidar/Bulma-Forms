@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edam21</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="includes/static/css/style.css">
+    <script src="https://kit.fontawesome.com/71a9a552f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="section" id="userInfo">
+        <div class="column">
+            <div class="box">
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Primeiro Nome <span class="has-text-danger-dark">*</span></label>
+                            <div class="control">
+                                <input type="text" class="input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Sobrenome <span class="has-text-danger-dark">*</span></label>
+                            <div class="control">
+                                <input type="text" class="input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">E-mail <span class="has-text-danger-dark">*</span></label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input type="email" class="input">
+                                <span class="icon is-small is-left"><i class="far fa-envelope"></i></span>
+                                <span class="icon is-small is-right"><i class="fas fa-check"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Número de telefone <span class="has-text-danger-dark">*</span></label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input type="number" class="input is-number">
+                                <span class="icon is-left">+49</span>
+                                <span class="icon is-small is-right"><i class="fas fa-check"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Qual é o nível que você deseja estudar? <span class="has-text-danger-dark">*</span></label>
+                            <div class="control">
+                                <div class="select">
+                                    <select>
+                                        <option>Não tenho certeza</option>
+                                        <option>A1 – Iniciante total</option>
+                                        <option>A2 – Iniciante</option>
+                                        <option>B1 – Avançado</option>
+                                        <option>B2 – Pós-avançado</option>
+                                        <option>C1 – Proficiente</option>
+                                        <option>C2 – Mestre</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column"></div>
+                </div>
+                <div class="my-5">
+                    <button type="submit" class="button is-outlined">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <span> Save</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="includes/static/js/script.js"></script>
+</body>
+</html>
